@@ -1,3 +1,5 @@
+
+
 .formControl {
   display: flex;
   justify-content: center;
@@ -6,15 +8,19 @@
 }
 
 .formControl input {
-    outline: none;
-    border: 1px solid #6d28d9;
-    border-radius: 5px;
-    padding: 8px 2px;
-    color: #6d28d9;
-    width: 300px;
-    margin-left: 1rem;
+  outline: none;
+  border: 1px solid #6d28d9;
+  border-radius: 5px;
+  padding: 8px 2px;
+  color: #6d28d9;
+  width: 200px;
+  margin-left: 1rem;
 }
-.formControl input:focus{
+.formControl input:focus {
   border: 2px solid #6d28d9;
-
+}
+@media screen and (min-width: 1024px) {
+  .formControl input {
+    width: 300px;
+  }
 }

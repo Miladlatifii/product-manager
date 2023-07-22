@@ -37,7 +37,6 @@ const Filter = () => {
     <section>
       <SearchBar filter={filter} />
       <div className={styles.filter}>
-        <p>filter products base on</p>
         <SelectComponent
           title="filter by size "
           value={filter}
