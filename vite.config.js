@@ -7,6 +7,6 @@ export default defineConfig({
   build: {
     //add this property
     sourcemap: true,
-    base:'/productManager/'
+    base: "/productManager",
   },
 });
